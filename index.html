@@ -47,133 +47,19 @@
     <!-- Navbar -->
     <nav class="bg-gray-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <img src="/images/logo.png" />
+            <a href="/"><img src="/images/logo.png" /></a>
             <div class="flex space-x-6">
-                <a href="#" class="hover:text-purple-400">Home</a>
-                <a href="#" class="hover:text-purple-400">Categories</a>
-                <a href="#" class="hover:text-purple-400">Leaderboard</a>
-                <a href="#" class="hover:text-purple-400">About</a>
+                <a href="/" class="hover:text-purple-400">Home</a>
             </div>
         </div>
     </nav>
 
-    <!-- Featured Game Section -->
-    <div id="game-container" class="container mx-auto mt-8 pt-8 rounded-xl">
-        <h1 class="text-4xl font-bold mb-6 text-center neon-text">Play Block Blast Unblocked</h1>
-        <div class="game-box">
-            <div class="iframe">
-                <iframe id="gameIframe" src="https://blockblastonline.com/game/block-blast-v1/" width="100%"
-                    height="100%" style="border: none; border-radius: 10px;"></iframe>
-            </div>
 
-            <div class="ads">
-                <div class="ad1"></div>
-                <div class="ad2"></div>
-            </div>
-        </div>
-
-        <div class="game-header">
-            <h2 class="game-title">Block Blast</h2>
-            <button id="fullscreenBtn" class="fullscreen-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
-                    class="fullscreen-icon">
-                    <path
-                        d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z" />
-                </svg>
-                Fullscreen
-            </button>
-        </div>
-    </div>
-
-    <style>
-        .game-box {
-            position: relative;
-            display: flex;
-            width: 100%;
-            height: 80vh;
-        }
-
-        .iframe {
-            flex: 0 0 78%;
-            max-width: 78%;
-            height: 100%;
-            background: #000;
-            border-radius: 10px;
-        }
-
-        .ads {
-            flex: 0 0 22%;
-            max-width: 22%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            padding: 2px;
-        }
-
-        .ad1,
-        .ad2 {
-            width: 100%;
-            height: 49%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .game-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-            background: #3a424c;
-            border-radius: 10px;
-            margin: 5px 0;
-            width: 78%;
-        }
-
-        .game-title {
-            color: white;
-            margin: 0;
-            font-size: 24px;
-        }
-
-        .fullscreen-btn {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background 0.3s ease;
-        }
-
-        .fullscreen-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        .fullscreen-icon {
-            width: 16px;
-            height: 16px;
-        }
-
-        /* Fullscreen styles */
-        .iframe.fullscreen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            max-width: 100%;
-            z-index: 9999;
-        }
-    </style>
 
     <!-- Popular Games Section -->
     <div class="container mx-auto mt-16 px-4">
+        <h1 class="text-3xl font-bold mb-8 text-center neon-text">Play Unblocked Games: Best Free Online Games in 2025
+        </h1>
         <h2 class="text-3xl font-bold mb-8 text-center neon-text">Popular Games</h2>
         <div class="grid grid-cols-6 gap-4">
             <!-- Game Cards -->
@@ -299,13 +185,13 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-bold mb-4">About Us</h3>
+                    <div class="text-lg font-bold mb-4">About Us</div>
                     <p class="text-gray-400 text-sm">Discover the best unblocked games to play online for free. Access
                         puzzle games, action games, strategy games, and more
                         without restrictions. Updated daily with new games.</p>
                 </div>
                 <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <div class="text-lg font-bold mb-4">Quick Links</div>
                     <ul class="text-gray-400 text-sm space-y-2">
                         <li><a href="#" class="hover:text-purple-400">Categories</a></li>
                         <li><a href="#" class="hover:text-purple-400">Top Games</a></li>
@@ -313,7 +199,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-bold mb-4">Support</h3>
+                    <div class="text-lg font-bold mb-4">Support</div>
                     <ul class="text-gray-400 text-sm space-y-2">
                         <li><a href="#" class="hover:text-purple-400">Help Center</a></li>
                         <li><a href="#" class="hover:text-purple-400">Contact Us</a></li>
@@ -321,7 +207,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-bold mb-4">Legal</h3>
+                    <div class="text-lg font-bold mb-4">Legal</div>
                     <ul class="text-gray-400 text-sm space-y-2">
                         <li><a href="#" class="hover:text-purple-400">Privacy Policy</a></li>
                         <li><a href="#" class="hover:text-purple-400">Terms of Service</a></li>

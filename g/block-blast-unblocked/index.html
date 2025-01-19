@@ -39,6 +39,113 @@
         .neon-text {
             text-shadow: 0 0 10px #4f46e5, 0 0 20px #4f46e5, 0 0 30px #4f46e5;
         }
+
+
+
+
+
+        /* Typography */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #e2e2e2;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            color: #e2e2e2;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #d1d1d1;
+        }
+
+        /* Lists */
+        ul,
+        ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+            color: #d1d1d1;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        /* Text elements */
+        strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+
+        /* Links */
+        a {
+
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #6366f1;
+        }
+
+        /* Button */
+        button {
+            background: #4f46e5;
+            color: #ffffff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #6366f1;
+        }
+
+
+
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+
+        }
     </style>
 </head>
 
@@ -46,9 +153,9 @@
     <!-- Navbar -->
     <nav class="bg-gray-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <img src="/images/logo.png" />
+            <a href="/"><img src="/images/logo.png" /></a>
             <div class="flex space-x-6">
-                <a href="#" class="hover:text-purple-400">Home</a>
+                <a href="/" class="hover:text-purple-400">Home</a>
                 <a href="#" class="hover:text-purple-400">Categories</a>
                 <a href="#" class="hover:text-purple-400">Leaderboard</a>
                 <a href="#" class="hover:text-purple-400">About</a>
@@ -214,81 +321,91 @@
     <div class="container mx-auto mt-16 px-8 w-3/4">
         <!-- <h2 class="text-3xl font-bold mb-8 text-center neon-text">About Our Games</h2> -->
         <div class="text-gray-300 space-y-6">
-            <p>Welcome to unblocked games, where you'll discover an extensive collection of
-                free online games that you can play directly in your browser. Whether you're looking for quick
-                entertainment or challenging gameplay, we've got you covered with games that are accessible anywhere,
-                anytime.</p>
 
-            <div>
-                <strong>Daily Updates:</strong> Our collection is refreshed regularly with new games to ensure you
-                always have something exciting to play. No downloads or installations required!
+            <p>Block Blast Unblocked has taken the casual gaming world by storm, offering an engaging puzzle experience
+                that
+                combines strategy, quick thinking, and endless entertainment. This comprehensive guide will walk you
+                through
+                everything you need to know about this captivating game.</p>
+
+            <h2>What is Block Blast Unblocked?</h2>
+            <p>Block Blast Unblocked is a free-to-play puzzle game that challenges players to match and clear colorful
+                blocks from
+                the game board. Unlike many similar games, Block Blast Unblocked is accessible without restrictions,
+                making it
+                perfect for quick gaming sessions during breaks or leisure time.</p>
+
+            <div class="game-features">
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>Multiple Game Modes:</strong> Enjoy Classic mode, Time Attack, and Challenge modes to
+                        test different
+                        skills</li>
+                    <li><strong>Progressive Difficulty:</strong> Start with simple puzzles and advance to more
+                        challenging levels
+                    </li>
+                    <li><strong>Power-Ups:</strong> Unlock special boosters and power-ups to help clear difficult levels
+                    </li>
+                    <li><strong>No Download Required:</strong> Play instantly in your web browser without installation
+                    </li>
+                    <li><strong>Cross-Platform Support:</strong> Play on desktop, tablet, or mobile devices</li>
+                </ul>
             </div>
 
-            <h2 class="text-2xl font-bold mt-8 mb-4">Popular Game Categories</h2>
-
-            <div class="space-y-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-2">Puzzle Games</h3>
-                    <p>Exercise your brain with challenging puzzles:</p>
-                    <ul class="list-disc pl-6 mt-2">
-                        <li>Block Blast</li>
-                        <li>Match Masters</li>
-                        <li>Color Sort Puzzle</li>
-                        <li>Pattern Match</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-xl font-bold mb-2">Action Games</h3>
-                    <p>Test your reflexes with fast-paced action:</p>
-                    <ul class="list-disc pl-6 mt-2">
-                        <li>Ninja Runner</li>
-                        <li>Space Shooter</li>
-                        <li>Adventure Quest</li>
-                        <li>Monster Chase</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="text-xl font-bold mb-2">Strategy Games</h3>
-                    <p>Plan, build, and conquer:</p>
-                    <ul class="list-disc pl-6 mt-2">
-                        <li>City Builder Pro</li>
-                        <li>Tower Defense Master</li>
-                        <li>Resource Manager</li>
-                        <li>Battle Strategy</li>
-                    </ul>
-                </div>
+            <div class="how-to-play">
+                <h2>How to Play Block Blast</h2>
+                <ol>
+                    <li><strong>Basic Mechanics:</strong> Click or tap on groups of two or more matching blocks to
+                        remove them from
+                        the board</li>
+                    <li><strong>Scoring:</strong> The larger the group of blocks you clear, the higher your score
+                        multiplier</li>
+                    <li><strong>Strategy:</strong> Plan your moves carefully to create larger block combinations and
+                        trigger chain
+                        reactions</li>
+                    <li><strong>Power-Ups:</strong> Collect special blocks that can clear entire rows, columns, or areas
+                    </li>
+                </ol>
             </div>
 
-            <h2 class="text-2xl font-bold mt-8 mb-4">Why Choose Unblocked Games?</h2>
-            <div class="space-y-4">
-                <div>
-                    <strong>No Downloads Required</strong>
-                    <p>Play instantly in your browser without installing anything.</p>
-                </div>
-                <div>
-                    <strong>Free to Play</strong>
-                    <p>Access all games without any payment or subscription.</p>
-                </div>
-                <div>
-                    <strong>Regular Updates</strong>
-                    <p>New games added daily for fresh entertainment.</p>
-                </div>
-                <div>
-                    <strong>Mobile Compatible</strong>
-                    <p>Play on any device with a web browser.</p>
-                </div>
-            </div>
-
-            <h2 class="text-2xl font-bold mt-8 mb-4">Pro Gaming Tips</h2>
-            <ul class="list-disc pl-6">
-                <li><strong>Use Keyboard Shortcuts:</strong> Learn the keyboard controls for better gameplay</li>
-                <li><strong>Save Your Progress:</strong> Many games offer progress saving features</li>
-                <li><strong>Check System Requirements:</strong> Ensure your browser is updated for optimal performance
-                </li>
-                <li><strong>Join Communities:</strong> Connect with other players for tips and strategies</li>
+            <h2>Tips and Strategies</h2>
+            <p>To master Block Blast Unblocked, consider these expert tips:</p>
+            <ul>
+                <li>Focus on clearing blocks from the bottom to create better combinations</li>
+                <li>Save power-ups for challenging situations</li>
+                <li>Look for potential chain reactions before making your move</li>
+                <li>Pay attention to the mission objectives in challenge modes</li>
             </ul>
+
+            <h2>Why Choose Block Blast Unblocked?</h2>
+            <p>Block Blast Unblocked stands out from other puzzle games for several reasons:</p>
+            <ul>
+                <li>Smooth, responsive gameplay optimized for web browsers</li>
+                <li>Regular updates with new levels and challenges</li>
+                <li>No registration required to start playing</li>
+                <li>Perfect balance of casual fun and strategic challenge</li>
+            </ul>
+
+            <h2>Educational Benefits</h2>
+            <p>While primarily designed for entertainment, Block Blast Unblocked offers several cognitive benefits:</p>
+            <ul>
+                <li>Improves pattern recognition skills</li>
+                <li>Enhances strategic thinking</li>
+                <li>Develops problem-solving abilities</li>
+                <li>Boosts hand-eye coordination</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+            <p>Block Blast Unblocked is more than just another puzzle game – it's a well-designed, engaging experience
+                that offers
+                hours of entertainment while challenging your mind. Whether you're a casual player looking for a quick
+                distraction
+                or a puzzle enthusiast seeking a new challenge, Block Blast Unblocked delivers an exceptional gaming
+                experience.</p>
+
+            <p>Ready to start playing? Jump into the colorful world of Block Blast Unblocked and see how far you can go!
+                No
+                downloads, no restrictions – just pure puzzle-solving fun at your fingertips.</p>
         </div>
     </div>
 
@@ -298,13 +415,13 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-4 gap-8">
                 <div>
-                    <h3 class="text-lg font-bold mb-4">About Us</h3>
+                    <div class="text-lg font-bold mb-4">About Us</div>
                     <p class="text-gray-400 text-sm">Discover the best unblocked games to play online for free. Access
                         puzzle games, action games, strategy games, and more
                         without restrictions. Updated daily with new games.</p>
                 </div>
                 <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <div class="text-lg font-bold mb-4">Quick Links</div>
                     <ul class="text-gray-400 text-sm space-y-2">
                         <li><a href="#" class="hover:text-purple-400">Categories</a></li>
                         <li><a href="#" class="hover:text-purple-400">Top Games</a></li>
@@ -312,7 +429,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-bold mb-4">Support</h3>
+                    <div class="text-lg font-bold mb-4">Support</div>
                     <ul class="text-gray-400 text-sm space-y-2">
                         <li><a href="#" class="hover:text-purple-400">Help Center</a></li>
                         <li><a href="#" class="hover:text-purple-400">Contact Us</a></li>
@@ -320,7 +437,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-bold mb-4">Legal</h3>
+                    <div class="text-lg font-bold mb-4">Legal</div>
                     <ul class="text-gray-400 text-sm space-y-2">
                         <li><a href="#" class="hover:text-purple-400">Privacy Policy</a></li>
                         <li><a href="#" class="hover:text-purple-400">Terms of Service</a></li>

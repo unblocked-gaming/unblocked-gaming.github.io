@@ -128,4 +128,5 @@ button:hover {
     text-align: center;
     /* Ensures content inside the div is centered */
     margin-top: 20px;
+    margin-bottom: 15px;
 }

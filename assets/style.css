@@ -118,3 +118,13 @@ button:hover {
 
 
 }
+
+
+.ad3 {
+    display: block;
+    /* Ensures it behaves like a block-level element */
+    margin: 0 auto;
+    /* Centers the div horizontally */
+    text-align: center;
+    /* Ensures content inside the div is centered */
+}

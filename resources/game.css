@@ -1,0 +1,86 @@
+.game-box {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.iframe {
+    flex: 0 0 78%;
+    max-width: 78%;
+    height: 100%;
+    background: #000;
+    border-radius: 10px;
+}
+
+.ads {
+    flex: 0 0 22%;
+    max-width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2px; */
+}
+
+
+
+.ad1,
+.ad2 {
+    width: 100%;
+    height: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #3a424c;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 78%;
+}
+
+.game-title {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+.fullscreen-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.fullscreen-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.fullscreen-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Fullscreen styles */
+.iframe.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    z-index: 9999;
+}

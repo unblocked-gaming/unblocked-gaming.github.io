@@ -17,27 +17,16 @@
     border-radius: 10px;
 }
 
-/* .ads {
-    flex: 0 0 25%;
-    max-width: 25%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-} */
-
 .ads {
     flex: 0 0 25%;
     max-width: 25%;
+    height: 100%;
     height: auto;
-    /* Ensure it adjusts based on ad content */
     min-height: 250px;
-    /* Set a minimum height for ad display */
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 

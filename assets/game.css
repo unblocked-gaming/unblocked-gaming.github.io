@@ -1,32 +1,32 @@
 #game-container {
-    max-width: 1400px;
+    max-width: 98%;
 }
 
 .game-box {
     position: relative;
     display: flex;
-    width: 1400px;
+    width: 100%;
     height: 80vh;
 }
 
 .iframe {
-    flex: 0 0 1100px;
-    max-width: 1100px;
+    flex: 0 0 75%;
+    max-width: 75%;
     height: 100%;
     background: #000;
     border-radius: 10px;
 }
 
 .ads {
-    flex: 0 0 300px;
-    position: relative;
-    max-width: 300px;
-    width: 300px;
+    flex: 0 0 25%;
+    max-width: 25%;
     height: auto;
+    /* Ensure it adjusts based on ad content */
+    min-height: 250px;
+    /* Set a minimum height for ad display */
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0;
 }
 
 
@@ -38,7 +38,7 @@
     background: #3a424c;
     border-radius: 10px;
     margin: 5px 0;
-    width: 1100px;
+    width: 75%;
 }
 
 .game-title {

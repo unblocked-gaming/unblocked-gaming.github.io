@@ -120,7 +120,7 @@ button:hover {
 }
 
 
-.res-ad1 {
+.resad1 {
     display: block;
     /* Ensures it behaves like a block-level element */
     margin: 0 auto;
@@ -131,7 +131,7 @@ button:hover {
     margin-bottom: 15px;
 }
 
-.res-ad2 {
+.resad2 {
     display: block;
     /* Ensures it behaves like a block-level element */
     margin: 0 auto;

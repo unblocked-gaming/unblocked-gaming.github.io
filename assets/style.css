@@ -120,7 +120,7 @@ button:hover {
 }
 
 
-.ad3 {
+.res-ad1 {
     display: block;
     /* Ensures it behaves like a block-level element */
     margin: 0 auto;
@@ -129,4 +129,13 @@ button:hover {
     /* Ensures content inside the div is centered */
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+.res-ad2 {
+    display: block;
+    /* Ensures it behaves like a block-level element */
+    margin: 0 auto;
+    /* Centers the div horizontally */
+    text-align: center;
+    /* Ensures content inside the div is centered */
 }

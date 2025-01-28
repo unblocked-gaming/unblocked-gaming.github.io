@@ -15,13 +15,17 @@
 
 .discord {
     background-color: #5765f2;
-    border-color: #5765f2;
+    border: 2px solid #5765f2;
     border-radius: 25px;
     margin-left: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 4px;
 }
 
 .discord:hover {
     border-color: white;
+    color: white;
 }
 
 

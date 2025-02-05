@@ -249,6 +249,12 @@
     </footer>
     <script src="/assets/webpush.js"></script>
     <script src="/assets/resad1.js"></script>
+    <script>
+        // Ensure the function runs only after the page loads
+        document.addEventListener("DOMContentLoaded", function () {
+            insertAd("ad-container");
+        });
+    </script>
 </body>
 
 </html>

@@ -152,7 +152,8 @@ button:hover {
     margin-bottom: 15px;
 }
 
-.resad2 .resad3 {
+.resad2,
+.resad3 {
     display: block;
     /* Ensures it behaves like a block-level element */
     margin: 0 auto;

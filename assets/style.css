@@ -142,7 +142,7 @@ button:hover {
 }
 
 .resad1 {
-    display: block;
+    display: flex;
     /* Ensures it behaves like a block-level element */
     margin: 0 auto;
     /* Centers the div horizontally */
